@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>projeto X-men - semana do zero ap programador contratado</title>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&family=Oxanium:wght@300;400;700&display=swap"
+            rel="stylesheet"
+        />
+
+        <link rel="stylesheet" href="./src/css/reset.css">
+        <link rel="stylesheet" href="./src/css/estilos.css">
+        <link rel="stylesheet" href="./src/css/responsivo.css">
+        
+    </head>
+    <body>
+        <header class="cabecalho">
+            <img class= logo src="./src/imagens/logo.svg" alt="logo x-mem">
+        </header>
+
+        <main class="selecao-de-personagens">
+            <section class="personagens">
+                <h1 class="titulo">Selecione um personagem</h1>
+                <ul class="lista-de-personagens">
+                    <li class="personagem selecionado" id="ciclope" data-name="Ciclope" data-description="Ele tem poder de disparar rajadas opiticas por um
+                    acidente que aconteceu com ele quando criança, mas nao
+                    consegue controla-los">
+                        <img
+                            src="./src/imagens/card-ciclope.jpg"
+                            alt="personagem ciclope"
+                        />
+                    </li>
+                    <li class="personagem " id="jean-grey"  data-name="jean grey" data-description="Como Avatar da Força Fênix
+                    Como o favorito e verdadeiro avatar da poderosa Força Fênix, Jean pode aumentar consideravelmente seus poderes por utilizar as energias vitais daqueles que ainda não nasceram.Excalibur #25 A Força Fênix também permite que seus avatares manifestem poderes …">
+                        <img
+                            src="./src/imagens/card-jean-grey.jpg"
+                            alt="personagem ciclope"
+                        />
+                    </li>
+                    <li class="personagem" id="lince-negra"data-name="Lincce negra"data-description="O sensei de Wolverine, Ogun, sequestrou Kitty Pryde e através de magia alterou sua personalidade transformando-a numa grande ninja contra Wolverine. Ele consegue recuperar a consciência dela, mas muito do aprendizado ninja que Ogun lhe passou permaneceu. A partir de então Kitty passou a ser conhecida como Lince Negra.
+
+                    ">
+                        <img
+                            src="./src/imagens/card-lince-negra.jpg"
+                            alt="personagem ciclope"
+                        />
+                    </li>
+                    <li class="personagem" id="magneto" data-name="Magneto" data-description="Magneto possui o poder de manipular qualquer tipo de metal, inclusive Vibranium e Adamantium. Ele tem o controle do magnetismo, do metal, e vários campos magnéticos, com isso ele cria campos de força eletromagnéticos, pode literalmente desligar a gravidade em volta de si isso lhe permite voar a distâncias e velocidades razoáveis. ">
+                        <img
+                            src="./src/imagens/card-magneto.jpg"
+                            alt="personagem ciclope"
+                        />
+                    </li>
+                    <li class="personagem" id="noturno" data-name="noturno" data-description="Seus poderes mutantes incluem teletransporte, super agilidade, aderência física, visão noturna, habilidades acrobáticas e a habilidade de fundir-se com as sombras. ">
+                        <img
+                            src="./src/imagens/card-noturno.jpg"
+                            alt="personagem ciclope"
+                        />
+                    </li>
+                    <li class="personagem" id="tempestade" data-name="tempestade" data-description="Foi encontrada pelo Professor Xavier e uniu-se aos X-men que a transformaram em uma grande lutadora, tanto armada quanto desarmada.  ">
+                        <img
+                            src="./src/imagens/card-tempestade.jpg"
+                            alt="personagem ciclope"
+                        />
+                    </li>
+                    <li class="personagem" id="vampira" data-name="vampira" data-description="Através do contato físico, Vampira absorve a energia vital, as memórias, pensamentos, habilidades físicas, mentais, normais ou especiais que a vítima possui, além dos seus super-poderes, sejam mutantes ou não.">
+                        <img
+                            src="./src/imagens/card-vampira.jpg"
+                            alt="personagem ciclope"
+                        />
+                    </li>
+                    <li class="personagem" id="wolverine" data-name="wolverine" data-description="Seu principal poder mutante é um processo de cicatrização acelerada, tipicamente referido como seu fator de cura mutante.">
+                        <img
+                            src="./src/imagens/card-wolverine.jpg"
+                            alt="personagem ciclope"
+                        />
+                    </li>
+                </ul>
+            </section>
+            <section class="personagem-selecionado">
+                <img
+                    class="personagem-grande"
+                    src="./src/imagens/card-ciclope.png"
+                    alt="personagem selecionado"
+                />
+
+                <div class="informacoes-personagem">
+                    <h2 class="nome-personagem" id="nome-personagem">
+                        ciclope
+                    </h2>
+                    <p class="descricao-personagem" id="descricao-personagem">
+                        Ele tem poder de disparar rajadas opiticas por um
+                        acidente que aconteceu com ele quando criança, mas nao
+                        consegue controla-los
+                    </p>
+                </div>
+            </section>
+        </main>
+        <script src="./src/js/index.js"></script>
+    </body>
+</html>
